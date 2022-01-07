@@ -1,0 +1,4 @@
+azure-functions
+azure-identity
+pandas
+psycopg2-binary
