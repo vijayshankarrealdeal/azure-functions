@@ -50,5 +50,5 @@ Test the Function in the portal or in your browser. The following code in __init
 &nbsp;&nbsp;&nbsp;&nbsp;`chrome_options.add_argument('--disable-dev-shm-usage')`
 
 &nbsp;&nbsp;&nbsp;&nbsp;`driver = webdriver.Chrome("/usr/local/bin/chromedriver", chrome_options=chrome_options)`
-&nbsp;&nbsp;&nbsp;&nbsp;`driver.get('http://www.ubuntu.com/')`
-&nbsp;&nbsp;&nbsp;&nbsp;`links = driver.find_elements_by_tag_name("a")`
+&nbsp;&nbsp;&nbsp;&nbsp;`driver.get(link)`
+&nbsp;&nbsp;&nbsp;&nbsp;....
